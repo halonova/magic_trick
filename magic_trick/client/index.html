@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Trick | Card Games</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+</head>
+<body>
+
+    <!--  Início do header  -->
+
+    <header>
+
+        <a href="#" class="logo"><i class="fas fa-leaf"></i>Magic Trick</a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#products">Produtos</a>
+            <a href="#register">Registro</a>
+            <a href="#fave_list">Favoritos</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </header>
+
+    <!-- Fim do header -->
+
+            <!-- Início da seção produtos  -->
+
+            <section class="products" id="products">
+                <h1 class="heading"> Nossos produtos </h1>
+                <div class="box-container">
+
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/forest.jpg" alt="">
+                            <a href="#" class="fas fa-heart"></a>
+                        </div>
+
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Floresta</h3>
+                            <p>Terreno</p>
+                            <a href="#" class="btn">Adicionar</a>
+                            <span class="price">R$1.50</span>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/plains.jpg" alt="">
+                            <a href="#" class="fas fa-heart"></a>
+                        </div>
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Planície</h3>
+                            <p>Terreno</p>
+                            <a href="#" class="btn">Adicionar</a>
+                            <span class="price">R$1.50</span>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/island.jpeg" alt="">
+                            <a href="#" class="fas fa-heart"></a>
+                        </div>
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Ilha</h3>
+                            <p>Terreno</p>
+                            <a href="#" class="btn">Adicionar</a>
+                            <span class="price">R$1.50</span>
+                        </div>
+                    </div>
+            </section>
+
+            <!-- Fim da seção produtos -->
+
+            <!-- Início da seção registro  -->
+
+            <section class="register" id="register">
+
+                <h1 class="heading"> Registre um item </h1>
+
+                <form action="">
+
+                    <div class="inputBox">
+                        <div class="input">
+                            <span>Título</span>
+                            <input type="text" placeholder="Título do produto">
+                        </div>
+
+                        <div class="input">
+                            <span>Preço</span>
+                            <input type="number" placeholder="Preço do produto">
+                        </div>
+                    </div>
+
+                    <div class="inputBox">
+                        <div class="input">
+                            <span>Descrição</span>
+                            <textarea name="" placeholder="Descreva brevemente o produto" id="" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+                        <div class="file-upload">
+                          <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Adicione uma imagem</button>
+
+                          <div class="image-upload-wrap">
+                            <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+                            <div class="drag-text">
+                              <h3>Arraste aqui ou selecione uma imagem</h3>
+                          </div>
+                      </div>
+                      <div class="file-upload-content">
+                        <img class="file-upload-image" src="#" alt="your image" />
+                        <div class="image-title-wrap">
+
+                          <button type="button" onclick="removeUpload()" class="remove-image">Remover <span class="image-title">Imagem selecionada</span></button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <input type="submit" value="Registrar" class="btn">
+      </form>
+  </section>
+
+  <!-- Fim da seção registro -->
+
+  <!-- Início do footer -->
+
+  <section class="footer">
+
+    <div class="credit"> Desenvolvimento de Software em Nuvem | Avaliação #2 </div>
+</section>
+
+<!-- Fim do footer -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Custom JS  -->
+<script src="js/script.js"></script>
+
+<!-- Função dark mode -->
+
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+}
+window.addEventListener('load', addDarkmodeWidget);
+</script>
+
+</body>
+</html>
