@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
-    --green:#27ae60;
-    --black:#192a56;
+    --golden-brown:#A27035;;
+    --space-cadet-blue:#192a56;
     --light-color:#666;
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
 }
@@ -34,14 +34,14 @@ section:nth-child(even){
 
 .sub-heading{
     text-align: center;
-    color:var(--green);
+    color:var(--golden-brown);
     font-size: 2rem;
     padding-top: 1rem;
 }
 
 .heading{
     text-align: center;
-    color:var(--black);
+    color:var(--space-cadet-blue);
     font-size: 3rem;
     padding-bottom: 2rem;
 }
@@ -51,14 +51,14 @@ section:nth-child(even){
     display: inline-block;
     font-size: 1.7rem;
     color:#fff;
-    background: var(--black);
+    background: var(--space-cadet-blue);
     border-radius: .5rem;
     cursor: pointer;
     padding:.8rem 3rem;
 }
 
 .btn:hover{
-    background: var(--green);
+    background: var(--golden-brown);
     letter-spacing: .1rem;
 }
 
@@ -75,13 +75,14 @@ header{
 }
 
 header .logo{
-    color:var(--black);
-    font-size: 2.5rem;
+    color:var(--space-cadet-blue);
+    font-size: 3.5rem;
     font-weight: bolder;
+
 }
 
 header .logo i{
-    color:var(--green);
+    color:var(--golden-brown);
 }
 
 header .navbar a{
@@ -94,7 +95,7 @@ header .navbar a{
 header .navbar a.active,
 header .navbar a:hover{
     color:#fff;
-    background: var(--green);
+    background: var(--golden-brown);
 }
 
 header .icons i,
@@ -106,7 +107,7 @@ header .icons a{
     width:4.5rem;
     text-align: center;
     font-size: 1.7rem;
-    color:var(--black);
+    color:var(--space-cadet-blue);
     border-radius: 50%;
     background: #eee;
 }
@@ -114,7 +115,7 @@ header .icons a{
 header .icons i:hover,
 header .icons a:hover{
     color:#fff;
-    background: var(--green);
+    background: var(--golden-brown);
     transform: rotate(360deg);
 }
 
@@ -154,11 +155,11 @@ header .icons #menu-bars{
     font-size: 2rem;
     background: #fff;
     border-radius: 50%;
-    color:var(--black);
+    color:var(--space-cadet-blue);
 }
 
 .products .box-container .box .image .fa-heart:hover{
-    background-color: var(--green);
+    background-color: var(--golden-brown);
     color:#fff;
 }
 
@@ -173,11 +174,11 @@ header .icons #menu-bars{
 
 .products .box-container .box .content .stars i{
    font-size: 1.7rem;
-   color:var(--green);
+   color:var(--golden-brown);
 }
 
 .products .box-container .box .content h3{
-    color:var(--black);
+    color:var(--space-cadet-blue);
     font-size: 2.5rem;
 }
 
@@ -189,7 +190,7 @@ header .icons #menu-bars{
 }
 
 .products .box-container .box .content .price{
-    color:var(--green);
+    color:var(--golden-brown);
     margin-left: 1rem;
     font-size: 2.5rem;
 }
@@ -227,7 +228,7 @@ header .icons #menu-bars{
     border-radius: .5rem;
     padding:1rem;
     font-size: 1.6rem;
-    color:var(--black);
+    color:var(--space-cadet-blue);
     text-transform: none;
     margin-bottom: 1rem;
     width:100%;
@@ -235,7 +236,7 @@ header .icons #menu-bars{
 
 .register form .inputBox .input input:focus,
 .register form .inputBox .input textarea:focus{
-    border:.1rem solid var(--green);
+    border:.1rem solid var(--golden-brown);
 }
 
 .register form .inputBox .input textarea{
@@ -263,11 +264,11 @@ body {
   width: 100%;
   margin: 0;
   color: #fff;
-  background: #1FB264;
+  background: #192a56;
   border: none;
   padding: 10px;
   border-radius: 4px;
-  border-bottom: 4px solid #15824B;
+  border-bottom: 4px solid #132246;
   transition: all .2s ease;
   outline: none;
   text-transform: uppercase;
@@ -275,7 +276,7 @@ body {
 }
 
 .file-upload-btn:hover {
-  background: #1AA059;
+  background: #191d94;
   color: #ffffff;
   transition: all .2s ease;
   cursor: pointer;
@@ -304,13 +305,13 @@ body {
 
 .image-upload-wrap {
   margin-top: 20px;
-  border: 4px dashed #1FB264;
+  border: 4px dashed #132246;
   position: relative;
 }
 
 .image-dropping,
 .image-upload-wrap:hover {
-  background-color: #1FB264;
+  background-color: #191d94;
   border: 4px dashed #ffffff;
 }
 
@@ -326,7 +327,7 @@ body {
 .drag-text h3 {
   font-weight: 100;
   text-transform: uppercase;
-  color: #15824B;
+  color: #0e6c7e;
   padding: 60px 0;
 }
 
@@ -373,7 +374,7 @@ body {
 .footer .box-container .box h3{
     padding:.5rem 0;
     font-size: 2.5rem;
-    color:var(--black);
+    color:var(--space-cadet-blue);
 }
 
 .footer .box-container .box a{
@@ -384,7 +385,7 @@ body {
 }
 
 .footer .box-container .box a:hover{
-    color:var(--green);
+    color:var(--golden-brown);
     text-decoration: underline;
 }
 
@@ -392,51 +393,19 @@ body {
     text-align: center;
     border-top: .1rem solid rgba(0,0,0,.1);
     font-size: 2rem;
-    color:var(--black);
+    color:var(--space-cadet-blue);
     padding:.5rem;
     padding-top: 1.5rem;
     margin-top: 1.5rem;
 }
 
 .footer .credit span{
-    color:var(--green);
+    color:var(--golden-brown);
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* media queries  */
-
 @media (max-width:991px){
 
     html{
