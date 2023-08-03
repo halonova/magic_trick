@@ -53,7 +53,8 @@ router.get('/:name', (req, res) => {
 //return all items
 router.get('/', async (req, res) => {
     try {
-        return res.json(items)
+        res.send("OK")
+        //return res.json(items)
     } catch {
         res.status(404).send("Not Found")
     }
